@@ -7,7 +7,7 @@ import torch.utils.data
 import numpy as np
 from sklearn.metrics import average_precision_score, accuracy_score
 
-from CNNDetection.resnet import resnet50
+from .resnet import resnet50
 
 from tqdm import tqdm
 
